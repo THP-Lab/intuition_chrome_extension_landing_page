@@ -1,6 +1,6 @@
 # Futuristic site
 
-Website made in futuristic style for no existing revolutionary auth technology
+Website made in react in futuristic style for no existing revolutionary auth technology
 
 ## Run Locally
 
