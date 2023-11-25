@@ -12,7 +12,7 @@ export default function About() {
           standard dummy text ever since the 1500s, when an unknown printer took
         </p>
       </div>
-      <div className="lock">
+      <div className="lock" style={{background: `url('${new URL('/src/assets/gradient.svg', import.meta.url)}')`}}>
         <img src={new URL('/src/assets/lock.svg', import.meta.url)} alt="" />
       </div>
     </div>
