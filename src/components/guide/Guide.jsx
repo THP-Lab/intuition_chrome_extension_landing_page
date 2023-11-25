@@ -5,7 +5,7 @@ export default function Guide() {
     <div style={{ marginTop: '120px' }}>
       <div className="step hidden">
         <div className="iconWrapper">
-          <img src="src/assets/scan.svg" alt="" />
+          <img src={new URL('/src/assets/scan.svg', import.meta.url)} alt="" />
         </div>
         <p className="description">
           <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -18,7 +18,7 @@ export default function Guide() {
 
       <div className="step hidden">
         <div className="iconWrapper">
-          <img src="src/assets/body.svg" alt="" />
+          <img src={new URL('/src/assets/body.svg', import.meta.url)} alt="" />
         </div>
         <p className="description">
           <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -31,7 +31,7 @@ export default function Guide() {
 
       <div className="step hidden">
         <div className="iconWrapper">
-          <img src="src/assets/checkmark.svg" alt="" />
+          <img src={new URL('/src/assets/checkmark.svg', import.meta.url)} alt="" />
         </div>
         <p className="description">
           <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been

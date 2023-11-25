@@ -8,13 +8,13 @@ export default function Footer() {
           Nextio<span> 2023</span>
         </h1>
         <div id="socials">
-          <img src="src/assets/socialMediaIcons/github.svg" alt="Github icon" />
+          <img src={new URL('/src/assets/socialMediaIcons/github.svg', import.meta.url)} alt="Github icon" />
           <a href="#">Gituhub</a>
-          <img src="src/assets/socialMediaIcons/facebook.svg" alt="Facebook icon" />
+          <img src={new URL('/src/assets/socialMediaIcons/facebook.svg', import.meta.url)} alt="Facebook icon" />
           <a href="#">Facebook</a>
-          <img src="src/assets/socialMediaIcons/instagram.svg" alt="Instagram icon" />
+          <img src={new URL('/src/assets/socialMediaIcons/instagram.svg', import.meta.url)} alt="Instagram icon" />
           <a href="#">Instagram</a>
-          <img src="src/assets/socialMediaIcons/twitterX.svg" alt="TwitterX icon" />
+          <img src={new URL('/src/assets/socialMediaIcons/twitterX.svg', import.meta.url)} alt="X icon" />
           <a href="#">Twitter</a>
         </div>
         <div id="links">

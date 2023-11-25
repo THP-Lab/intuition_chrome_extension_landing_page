@@ -13,7 +13,7 @@ export default function About() {
         </p>
       </div>
       <div className="lock">
-        <img src="src/assets/lock.svg" alt="" />
+        <img src={new URL('/src/assets/lock.svg', import.meta.url)} alt="" />
       </div>
     </div>
   );
