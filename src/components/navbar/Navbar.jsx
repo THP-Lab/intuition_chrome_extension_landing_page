@@ -3,10 +3,9 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav>
-      <h2>Nextio</h2>
-      <a href="#">Contact</a>
-      <a href="#">Career</a>
-      <a href="#">Politics</a>
+      <h2>Intuition Chrome-Extension</h2>
+      <a href="#contact">Contact</a>
+      
     </nav>
   );
 }

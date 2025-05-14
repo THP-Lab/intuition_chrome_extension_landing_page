@@ -10,6 +10,8 @@
   border-radius: 8px;
   padding-left: 40px;
   overflow: hidden;
+
+  
 }
 
 .about::before {
@@ -21,7 +23,7 @@
   bottom: -550px;
   width: 25px;
   height: 1400px;
-  background: linear-gradient(90deg, rgb(233 159 255) 0%, rgb(223 119 255 / 36.3%) 100%);
+  background: linear-gradient(90deg, rgb(12, 85, 219) 0%, rgb(223 119 255 / 36.3%) 100%);
   transform: rotate(70deg);
   animation: animate 4s linear infinite;
 }
@@ -53,7 +55,7 @@
 }
 
 .about h2 span {
-  color: #f3cbff;
+  color: #93a7eb;
 }
 
 .about p {

@@ -11,7 +11,7 @@ nav {
 nav h2 {
   margin: 0 0 0 30px;
   color: #d6d6d6;
-  font-size: 16px;
+  font-size: 23px;
   letter-spacing: 1.3px;
   font-family: Inter, sans-serif;
   font-weight: 900;
@@ -20,7 +20,7 @@ nav h2 {
 nav a {
   color: rgb(80 79 79);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   margin: 0 24px;
   text-decoration: none;
 }

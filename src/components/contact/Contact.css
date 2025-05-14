@@ -1,0 +1,22 @@
+.contact-section {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: white;
+  margin: 0 auto 32px auto; 
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #1f1e1e;
+  width: 68%;
+}
+
+.discord-button {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.discord-button:hover {
+  color: #5da5ec; 
+}

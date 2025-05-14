@@ -1,15 +1,19 @@
 import './App.css';
-import Spline from '@splinetool/react-spline';
 import Navbar from './components/navbar/Navbar';
 import MainInfo from './components/mainInfo/MainInfo';
 import About from './components/about/About';
-import Stats from './components/stats/Stats';
 import Guide from './components/guide/Guide';
 import Footer from './components/footer/Footer';
 import { useEffect } from 'react';
+import Contact from './components/contact/Contact';
+import EyeShowcase from './components/eyeShowcase/EyeShowcase';
+import Team from './components/team/Team';
+
+
+
+
 
 export default function App() {
-  const animationUrl = 'https://prod.spline.design/MRH3HYRMZTjVEKDo/scene.splinecode';
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -27,17 +31,22 @@ export default function App() {
   return (
     <>
       <Navbar />
+    
+    
       <div className="column">
-        <div style={{ height: '100vh', maxHeight: '1220px' }}>
+        <div style={{ height: '1000vh', maxHeight: '1220px' }}>
           <div className="landing">
             <MainInfo />
-            <Spline id="animation" scene={animationUrl} />
+            <EyeShowcase />
           </div>
         </div>
+      
         <About />
-        <Stats />
         <Guide />
+        
       </div>
+      <Contact />
+      <Team />
       <Footer />
     </>
   );
