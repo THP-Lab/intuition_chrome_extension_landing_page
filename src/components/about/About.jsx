@@ -8,9 +8,10 @@ export default function About() {
           What is <span>Intuition</span>?
         </h2>
         <p>
-          Intuition is a Chrome extension that adds trust and context to your browsing experience.
-          See who recommends a page, read insights from real people, and avoid suspicious websites.
-          It’s like <span>Community Notes</span>, but for the entire web.
+        Intuition is a Web3 platform that empowers users by allowing them to create, share, and access  <span> decentralized reputation data </span> to better assess the credibility of online information. <br></br><br></br>
+
+The Intuition Chrome Extension is a tool that connects users to Intuition’s Knowledge Graph, enabling them to view real-time reputation data on web content, follow the judgments of trusted sources, and actively contribute to building this layer of trust.
+          
         </p>
       </div>
       <div

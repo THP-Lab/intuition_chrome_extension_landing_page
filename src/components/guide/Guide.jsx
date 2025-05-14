@@ -3,7 +3,7 @@ import './Guide.css';
 export default function Guide() {
   return (
     <div style={{ marginTop: '120px' }}>
-      {/* Étape 1 – The Problem */}
+     
       <div className="step hidden">
         <div className="iconWrapper">
           <img src={new URL('/src/assets/body.svg', import.meta.url)} alt="Problem icon" />
@@ -16,7 +16,7 @@ export default function Guide() {
       <div className="line" style={{ transform: 'rotate(180deg)' }}></div>
       <div className="line"></div>
 
-      {/* Étape 2 – Our Solution */}
+   
       <div className="step hidden">
         <div className="iconWrapper">
           <img src={new URL('/src/assets/scan.svg', import.meta.url)} alt="Solution icon" />
@@ -29,7 +29,7 @@ export default function Guide() {
       <div className="line" style={{ transform: 'rotate(180deg)' }}></div>
       <div className="line"></div>
 
-      {/* Étape 3 – Tech foundation */}
+      
       <div className="step hidden">
         <div className="iconWrapper">
           <img src={new URL('/src/assets/checkmark.svg', import.meta.url)} alt="Tech icon" />
