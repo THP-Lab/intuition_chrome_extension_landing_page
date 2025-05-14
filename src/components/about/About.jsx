@@ -19,7 +19,7 @@ export default function About() {
           background: `url('${new URL('/src/assets/gradient.svg', import.meta.url)}')`,
         }}
       >
-        <img src={new URL('/src/assets/icon.png', import.meta.url)} alt="intuition symbol" />
+        <img src={new URL('/src/assets/i7n.gif', import.meta.url)} alt="intuition symbol" />
       </div>
     </div>
   );
