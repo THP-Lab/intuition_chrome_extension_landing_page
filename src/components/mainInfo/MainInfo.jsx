@@ -13,7 +13,7 @@ export default function MainInfo() {
         <div style={{ marginTop: '30px', display: 'flex', flexWrap: 'wrap', gap: '45px', justifyContent: 'center' }}>
           <a href="https://devfolio.co/projects/intuition-chromeextention-afea">Hackathon participation</a>
           <a href="https://github.com/THP-Lab/intuition-chrome-extension">View on GitHub</a>
-          <a href="https://analytics.thp.box/teams/a6a72ae2-b197-40da-84c9-13cc48b5d2ea/websites/652ad704-1d96-4d7f-877d-c409dc867a5c">
+          <a href="https://analytics.thp.box/share/aCRPIF6X5r9cbf6g/ext.thp-lab.org">
             Public Analytics
           </a>
         </div>
