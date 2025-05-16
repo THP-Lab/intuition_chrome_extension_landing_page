@@ -20,3 +20,11 @@
 .discord-button:hover {
   color: #5da5ec; 
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-section {
+    width: 90%;
+    padding: 60px 10px;
+    font-size: 22px;
+  }
+ }

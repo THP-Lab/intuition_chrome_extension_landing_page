@@ -58,3 +58,23 @@
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .step {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .description {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+}

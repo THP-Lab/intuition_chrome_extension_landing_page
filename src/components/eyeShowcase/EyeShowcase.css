@@ -32,3 +32,17 @@
 .eye-button:hover {
   background-color: #798ae7;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .eye-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.eye-button {
+  margin-top: 20px;
+}
+
+}

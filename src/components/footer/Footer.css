@@ -87,3 +87,21 @@ footer {
     margin: 0 20px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+ .content h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #socials, #links {
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  }
