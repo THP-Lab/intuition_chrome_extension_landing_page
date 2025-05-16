@@ -17,12 +17,13 @@
 }
 
 .main-info #info {
-  max-width: 450px;
+  max-width: 800px;
   margin: 50px 0 15px 0;
-  font-size: 40px;
+  font-size: 45px;
   color: #eeecec;
   font-family: sans-serif;
   font-weight: 100;
+  text-align: center;
 }
 
 .main-info p span {

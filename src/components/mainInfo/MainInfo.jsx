@@ -5,7 +5,7 @@ export default function MainInfo() {
     <div className="main-info">
       <div className="video-wrapper">
         <iframe
-          width="560"
+          width="800"
           height="315"
           src="https://www.youtube.com/embed/YJwcXQ3oAWY?si=MrarXUhaKYwG0gc_&controls=0"
           title="YouTube video player"
