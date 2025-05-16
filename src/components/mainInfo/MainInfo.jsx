@@ -3,7 +3,10 @@ import './MainInfo.css';
 export default function MainInfo() {
   return (
     <div className="main-info">
+      <div className="demo-intro">See Intuition in action, watch the demo below 👇</div>
+      <br></br>  <br></br>
       <div className="video-wrapper">
+        
         <iframe
           width="800"
           height="315"
