@@ -107,7 +107,7 @@
  .about {
     flex-direction: column;
     height: auto;
-    padding: 0 35%;
+   
     align-items: center;
     text-align: center;
   }
@@ -119,7 +119,7 @@
 
   .about p {
     margin: 20px auto;
-    font-size: 1-px;
+    font-size: 17px;
     max-width: 95vw;
   }
 

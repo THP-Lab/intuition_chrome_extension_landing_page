@@ -39,11 +39,23 @@
   .eye-wrapper {
   flex-direction: column;
   align-items: center;
+  
 }
 
 .eye-button {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 
+.eye-component {
+  max-width: 300px;
+  width: 90vw !important;
+  
+}
+
+.eye-component canvas {
+  max-width: 300px;
+  width: 100% !important;
+  height: auto !important;
+}
 }
