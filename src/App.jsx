@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 import Contact from './components/contact/Contact';
 import EyeShowcase from './components/eyeShowcase/EyeShowcase';
 import Team from './components/team/Team';
-
+import SupportUs from './components/support/SupportUs';
 
 
 
@@ -47,6 +47,7 @@ export default function App() {
       </div>
       <Contact />
       <Team />
+      <SupportUs />
       <Footer />
     </>
   );
