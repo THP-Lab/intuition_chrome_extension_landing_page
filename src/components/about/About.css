@@ -104,36 +104,35 @@
 }
 
 @media only screen and (max-width: 515px) {
-  .about {
-    flex-direction: column; 
-    align-items: center;
-    padding: 20px;
+    .about {
+    flex-direction: column;
     height: auto;
-  }
-
-  .about h2 {
-    margin-left: 0;
+    padding: 20px;
+    align-items: center;
     text-align: center;
   }
 
- .about p {
-  margin: 20px auto;
-  font-size: 15px;
-  max-width: 100%;
-  word-wrap: break-word;
-  line-height: 1.6;
-}
+  .about h2 {
+    margin-top: 20px;
+    font-size: 28px;
+  }
 
+  .about p {
+    margin: 20px auto;
+    font-size: 18px;
+    max-width: 95vw;
+  }
 
   .lock {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
 
   .lock img {
     width: 80px;
     height: 80px;
+     align-items: center;
   }
 }
