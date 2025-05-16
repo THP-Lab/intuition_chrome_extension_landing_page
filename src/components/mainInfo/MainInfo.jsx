@@ -3,9 +3,18 @@ import './MainInfo.css';
 export default function MainInfo() {
   return (
     <div className="main-info">
-      <h1>
-        <span id="now">INTUITION</span> CHROME <br /> EXTENSION
-      </h1>
+      <div className="video-wrapper">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YJwcXQ3oAWY?si=MrarXUhaKYwG0gc_&controls=0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
       <div >
         <p id="info">
           Augment your web experience with <span>real-time</span> context and <span>insights</span>
