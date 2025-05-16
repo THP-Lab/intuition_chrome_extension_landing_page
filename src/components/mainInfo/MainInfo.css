@@ -75,9 +75,6 @@
 
 @media only screen and (max-width: 768px) {
  
- .main-info {
-    padding: 0 16px;
-  }
 
   .main-info h1 {
     font-size: 56px;
@@ -88,7 +85,9 @@
   .main-info #info {
     font-size: 22px;
     text-align: center;
-    margin: 30px auto 15px auto;
+    margin: 30px auto 15px 15px;
+    padding: 0 20%;
+
   }
 
   .main-info a {

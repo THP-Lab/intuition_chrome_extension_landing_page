@@ -107,19 +107,19 @@
  .about {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 0 35%;
     align-items: center;
     text-align: center;
   }
 
   .about h2 {
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .about p {
     margin: 20px auto;
-    font-size: 18px;
+    font-size: 1-px;
     max-width: 95vw;
   }
 
