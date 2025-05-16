@@ -84,10 +84,10 @@
   }
 
   .main-info #info {
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    margin: 30px auto 15px 15px;
-    padding: 0 20%;
+    margin: 30px auto 0px 0px;
+    padding: 0 10%;
     max-width: 300px;
 
   }
